@@ -1,13 +1,5 @@
-import React from 'react'
-import CreateBlog from './components/CreateBlog'
+import { redirect } from 'next/navigation'
 
-
-const page = () => {
-    return (
-        <div className='mt-32 flex flex-col items-center pb-8'>
-            <CreateBlog />
-        </div>
-    )
+export default function AddBlogPage() {
+    redirect('/blogs')
 }
-
-export default page
