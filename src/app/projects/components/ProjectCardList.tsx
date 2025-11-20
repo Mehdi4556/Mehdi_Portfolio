@@ -65,7 +65,7 @@ const data: Project[] = [
     logo: '/logo.webp',
     title: "Sens AI",
     description: "Unlock your career potential with an AI-powered career coach! Get personalized guidance on job searches, resume building, interview prep, and skill development. Whether you're starting out or leveling up, AI-driven insights help you achieve your career goals fasterances.",
-    techStack: ["React","Shadcn", "TypeScript", "Neon DB", "Redux Toolkit", "Tailwind CSS"],
+    techStack: ["React","Shadcn", "TypeScript", "Neon DB", "Gemini", "Redux Toolkit", "Tailwind CSS"],
     link: "https://sens-ai-six.vercel.app/",
     source: "https://github.com/Mehdi4556/Sens-AI",
   },

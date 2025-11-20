@@ -88,3 +88,40 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
+/* Theme transition animation */
+.theme-transition-overlay {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 9999;
+  animation: themeTransition 0.8s cubic-bezier(0.4, 0.0, 0.2, 1) forwards;
+  will-change: clip-path;
+}
+
+.theme-transition-overlay.to-dark {
+  background: #000000;
+}
+
+.theme-transition-overlay.to-light {
+  background: #ffffff;
+}
+
+@keyframes themeTransition {
+  0% {
+    clip-path: circle(0% at 100% 0%);
+  }
+  100% {
+    clip-path: circle(150% at 100% 0%);
+  }
+}
+
+/* Smooth content transition during theme change */
+body.theme-transitioning {
+  transition: opacity 0.15s ease-in-out;
+}
+
+body.theme-transitioning > * {
+  opacity: 0.7;
+  transition: opacity 0.15s ease-in-out;
+}

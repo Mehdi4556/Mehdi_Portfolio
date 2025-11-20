@@ -15,13 +15,14 @@ export default function HeroSection() {
                     <h1 className={`!text-[3rem] mt-2 max-sm:!text-[1.6rem] !whitespace-nowrap font-bold tracking-tight text-center ${bricolage_grotesque}`}>
                         Hi, I&apos;m Muhammad Mehdi
                     </h1>
-                    <h1 className={`mt-2 max-sm:mt-5 max-sm:px-3 !text-base max-sm:!text-sm text-center !font-normal !tracking-normal inter !leading-6 ${inter}`}>20, i break things, learn fast, and make shit happen. deep into code and cs; anything that pushes the limits. history, curiosity, cricket, and great books shaped me. still chasing mastery.
+                    <h1 className={`mt-2 max-sm:mt-5 max-sm:px-3 !text-base max-sm:!text-sm text-center !font-normal !tracking-normal inter !leading-6 ${inter}`}>Full Stack Developer (Frontend-Focused) · 20
+                    i break things, learn fast, and make shit happen. obsessed with code, cs fundamentals, and anything that pushes the limits. curiosity, history, cricket, and great books shaped how I think and build. always levelling up still chasing mastery, one project at a time
                         <br />
                         If you’re working on something real, let’s talk.
                     </h1>
                 </div>
                 <div className="mt-8 flex gap-4">
-                    <Link href="https://cal.com/fardeentwt/15min" target='_blank'>
+                    <Link href="https://cal.com/m-mehdi-rthftp/15min" target='_blank'>
                         <Button className="rounded-lg">
                             Book a meet
                         </Button>
