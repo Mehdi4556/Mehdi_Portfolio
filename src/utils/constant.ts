@@ -2,23 +2,23 @@ import { I_Education, I_Experience } from "@/types/project";
 
 export const experienceData: I_Experience[] = [
     {
-        company_link: "https://naiaredesign.com/",
-        company_logo: "/naia.png",
-        company_name: "Naia Redesign",
-        duration: "aug 2025 - present",
-        job_title: "Founding Engineer",
+        company_link: "https://www.numeo.ai/",
+        company_logo: "/numeo.jpg",
+        company_name: "Numeo - AI",
+        duration: "November 2025 - Present",
+        job_title: "Frontend Engineer",
         description: ""
     },
     {
-        company_link: "https://www.adobe.com/",
-        company_logo: "/adobe.png",
-        company_name: "Adobe Inc.",
-        duration: "2024 - present",
-        job_title: "4x Grant Recipient",
+        company_link: "https://www.meelio.io/",
+        company_logo: "/meelio.jfif",
+        company_name: "Meelio",
+        duration: "2024 - November 2025",
+        job_title: "Full Stack Developer",
         description: ""
     },
     {
-        company_link: "https://x.com/fardeentwt",
+        company_link: "https://www.linkedin.com/in/muhammad-mehdi-53952a360/",
         company_logo: "/freelance-icon.webp",
         company_name: "building full stack apps",
         duration: "2024 - early 2025",
@@ -26,22 +26,22 @@ export const experienceData: I_Experience[] = [
         description: ""
     },
     {
-        company_link: "https://x.com/fardeentwt",
-        company_logo: "/stealth-startup.jpeg",
-        company_name: "Stealth Startup",
-        duration: "feb 2024 - june 2024",
-        job_title: "Full Stack Development - TA",
+        company_link: "https://www.linkedin.com/in/muhammad-mehdi-53952a360/",
+        company_logo: "/Adorable.jpg",
+        company_name: "Adorable Solutions",
+        duration: "March 2024 - April 2024",
+        job_title: "Full Stack Development - Intern",
         description: ""
     }
 ];
 
 export const educationData: I_Education[] = [
     {
-        institute_link: "https://www.uok.ac.in/",
-        institute_logo: "/uok.gif",
-        course_title: "Bachelors of Computer Application",
-        ending_date: " sep 2025",
-        institute_name: "University of Kota",
+        institute_link: "http://gu.edu.pk/",
+        institute_logo: "/uni.webp",
+        course_title: "Bachelors In Computer Science",
+        ending_date: " April 2025",
+        institute_name: "Gomal University",
         cgpa: 8.5,
         description: ""
     }

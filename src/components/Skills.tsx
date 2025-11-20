@@ -28,4 +28,4 @@ const Skills = () => {
 
 export default Skills;
 
-const data: string[] = ["JavaScript", "TypeScript", "Next.js", "React Native", "React", "Figma", "MongoDB", "PostgreSQL", "Supabase", "MySQL", "Turborepo", "Docker", "AWS", "Redux"];
+const data: string[] = ["JavaScript", "TypeScript", "Next.js", "React Native", "React", "Figma", "MongoDB", "PostgreSQL", "Supabase", "MySQL", "Turborepo", "Docker", "AWS", "Redux","GSAP", "ScrollTrigger","Framer Motion","Zustand"];
