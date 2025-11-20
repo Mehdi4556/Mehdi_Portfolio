@@ -11,7 +11,7 @@ export const experienceData: I_Experience[] = [
     },
     {
         company_link: "https://www.meelio.io/",
-        company_logo: "/meelio.jfif",
+        company_logo: "/meelio.jpg",
         company_name: "Meelio",
         duration: "2024 - November 2025",
         job_title: "Full Stack Developer",
