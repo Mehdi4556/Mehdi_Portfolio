@@ -15,6 +15,11 @@ export const metadata: Metadata = {
   description: "Fardeen Mansoori is a Full Stack Developer specializing in building impactful web applications from scratch. Explore his portfolio to see my projects and skills.",
   keywords: "Fardeen Mansoori, Full Stack Developer, Web Developer, Portfolio, JavaScript, TypeScript, React, Node.js, software engineer",
   authors: [{ name: "Muhammad Mehdi" }],
+  icons: {
+    icon: '/hero.jpg',
+    shortcut: '/hero.jpg',
+    apple: '/hero.jpg',
+  },
   openGraph: {
     title: "Mehdi",
     description: "",

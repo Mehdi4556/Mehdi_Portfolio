@@ -2,10 +2,9 @@
 
 import React from 'react';
 import { Separator, Tooltip } from '@radix-ui/themes';
-import { GitHubLogoIcon, SunIcon, MoonIcon, FileIcon, RowsIcon, LinkedInLogoIcon, CodeIcon, HomeIcon } from '@radix-ui/react-icons';
+import { GitHubLogoIcon, SunIcon, MoonIcon, FileIcon, LinkedInLogoIcon, CodeIcon, HomeIcon } from '@radix-ui/react-icons';
 import { usePathname } from 'next/navigation';
 import { FaXTwitter } from 'react-icons/fa6';
-import { IoPerson } from "react-icons/io5";
 import { useDarkMode } from '@/hooks/useDarkMode';
 import Link from 'next/link';
 
@@ -31,25 +30,6 @@ const Navbar = () => {
                         <Tooltip content="Projects">
                             <div className='hover:px-3 max-sm:hover:px-2 py-2.5 dark:hover:bg-[#262626] hover:bg-[#F4F4F5] rounded-full transition-all duration-300'>
                                 <CodeIcon className={`w-[19px] h-[19px] max-sm:w-[15px] max-sm:h-[15px] text-black dark:text-white ${pathname == '/projects' ? 'dark:!text-[#FFC83D] !text-[#cc9e2b]' : ''}`} />
-                            </div>
-                        </Tooltip>
-                    </Link>
-
-                    <Link href="/blogs">
-                        <Tooltip content="Blog">
-                            <div className='hover:px-3 max-sm:hover:px-2 py-2.5 dark:hover:bg-[#262626] hover:bg-[#F4F4F5] rounded-full transition-all duration-300'>
-                                <RowsIcon
-                                    className={`w-[16px] h-[16px] max-sm:w-[13px] max-sm:h-[13px] text-black dark:text-white ${pathname.startsWith('/blogs') ? 'dark:!text-[#FFC83D] !text-[#cc9e2b]' : ''}`}
-                                />
-                            </div>
-                        </Tooltip>
-                    </Link>
-
-
-                    <Link href="/about">
-                        <Tooltip content="About">
-                            <div className='hover:px-3 max-sm:hover:px-2 py-2.5 dark:hover:bg-[#262626] hover:bg-[#F4F4F5] rounded-full transition-all duration-300'>
-                                <IoPerson className={`w-[18px] h-[18px] max-sm:w-[15px] max-sm:h-[15px] text-black dark:text-white ${pathname == '/about' ? 'dark:!text-[#FFC83D] !text-[#cc9e2b]' : ''}`} />
                             </div>
                         </Tooltip>
                     </Link>
