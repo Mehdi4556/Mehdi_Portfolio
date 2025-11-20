@@ -56,7 +56,7 @@ const data: Project[] = [
   {
     logo: '/tradelogix.png',
     title: "Tradelogix - Tradeing Journal",
-    description: "Built a trading journal and analytics platform using React, Node.js, and PostgreSQL. Implemented image uploads, P/L tracking, and calendar-based filters (daily, weekly, monthly). Designed a dark-theme UI, added trade-insight visualizations, and collaborated with the product team to deliver features based on real trader feedback.",
+    description: "Built a trading journal and analytics platform using React, Node.js, and PostgreSQL. Implemented image uploads, P/L tracking, and calendar-based filters (daily, weekly, monthly).",
     techStack: ["Next.js", "TypeScript", "Zustand", "Prisma", "PostgreSQL", "NextAuth", "Tailwind CSS"],
     link: "https://tradelogix-frontend.vercel.app/signup",
     source: "https://github.com/Mehdi4556/Tradelogix",
